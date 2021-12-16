@@ -10,9 +10,26 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  display: flex;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+.dd{
+  display: block;
+  padding: 15px 30px;
+ margin-left: auto;
+margin-top: 20em;
+
+}
+.ddd{
+  display: block;
+  padding: 15px 30px;
+  margin-left: 30px;
+ margin-right: auto;
+ margin-top: 20em;
+ 
 }
