@@ -17,20 +17,3 @@ img {
   max-width: 100%;
 }
 
-/* добавлено */
-.task1{
-  display: flex;
-}
-
-.dd{
-  padding: 15px 30px;
-  margin-left: auto;
-  margin-top: 20em;
-}
-
-.ddd{
-  padding: 15px 30px;
-  margin-left: 30px;
-  margin-right: auto;
-  margin-top: 20em;
-}
