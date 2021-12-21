@@ -3,6 +3,7 @@ const startBtn = document.querySelector("[data-start]");
 const stopBtn = document.querySelector("[data-stop]");
 const bodyColor = document.querySelector("body");
 
+
 startBtn.classList.add('btnStart');
 stopBtn.classList.add('btnStop');
 bodyColor.classList.add('styleBody');
