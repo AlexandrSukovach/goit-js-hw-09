@@ -1,5 +1,5 @@
 
-// import { Notify } from 'notiflix/build/notiflix-notify-aio';
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 
 // ===========поиск элементов=======
@@ -35,20 +35,10 @@ function changeinputAmount(event) {
 };
 
 // // =======запуск=========
-const arr_items = [];
-
 function onStart(evt) {
   evt.preventDefault();
-  // ========значения=========
   let i = 0;
-  arr_items[i] = {
-    Delay: inputDelay.value,
-    Step: inputStep.value,
-    Amount: inputAmount.value
-  };
-  i++;
   // ==========запуск промиса===========
-  // let timer1 = 0;
   let timer1 = Number(changeDelay) - Number(changeStep);
   for (let i = 1; i <= changeAmount; i++) {
 
@@ -69,7 +59,6 @@ function onStart(evt) {
         }, timer)
       });
     };
-
     createPromise().then(onFulfilled, onRejected);
     function onFulfilled(resolte) {
       console.log(resolte);
